@@ -14,31 +14,31 @@ The project evaluates and compares two deep learning architectures:
 ## Installation & Usage
 
 ### 1. Clone the repository
-git clone [https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git](https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git)
+git clone [https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git](https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git) 
 cd Hate_Speech_Detection_LSTM_vs_BERT
 
-2. Install Dependencies
-Install the required libraries with this command:
-pip install pandas numpy torch scikit-learn transformers
+2. Install Dependencies 
+Install the required libraries with this command: 
+pip install pandas numpy torch scikit-learn transformers 
 
-3. Run the Project
-You can run the training and evaluation script with a single command:
-python main.py
-Note: The BERT training process might take 45-60 minutes on a CPU environment.
+3. Run the Project 
+You can run the training and evaluation script with a single command: 
+python main.py 
+Note: The BERT training process might take 45-60 minutes on a CPU environment. 
 
-Results
-The models were evaluated on the Davidson et al. dataset. Below is a summary of the performance trade-offs observed during the study:
+Results 
+The models were evaluated on the Davidson et al. dataset. Below is a summary of the performance trade-offs observed during the study: 
 
 Model | Macro F1-Score | Accuracy | Inference Latency (per sample)
 Bi-LSTM | 0.58 | 0.94 | ~0.29 ms
 BERT | [0.XX] | [0.XX]| [XX.XX] ms
 
-Observation: While BERT generally provides better semantic understanding, Bi-LSTM offers significantly lower latency, making it suitable for real-time edge applications.
+Observation: While BERT generally provides better semantic understanding, Bi-LSTM offers significantly lower latency, making it suitable for real-time edge applications. 
 
-Dataset
-This project uses the Hate Speech and Offensive Language Dataset provided by Davidson et al.
+Dataset 
+This project uses the Hate Speech and Offensive Language Dataset provided by Davidson et al. 
 
-Source: t-davidson/hate-speech-and-offensive-language
+Source: t-davidson/hate-speech-and-offensive-language 
 
-👤 Author
+👤 Author 
 Umut Sabri Akgün Department of Computer Engineering Bahçeşehir University
