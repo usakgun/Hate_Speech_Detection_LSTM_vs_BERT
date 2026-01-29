@@ -14,8 +14,7 @@ The project evaluates and compares two deep learning architectures:
 ## Installation & Usage
 
 ### 1. Clone the repository
-```bash
-### git clone [https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git](https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git)
+git clone [https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git](https://github.com/usakgun/Hate_Speech_Detection_LSTM_vs_BERT.git)
 cd Hate_Speech_Detection_LSTM_vs_BERT
 
 2. Install Dependencies
