@@ -28,6 +28,7 @@ Note: The BERT training process might take 45-60 minutes on a CPU environment.
 
 Results
 The models were evaluated on the Davidson et al. dataset. Below is a summary of the performance trade-offs observed during the study:
+
 Model | Macro F1-Score | Accuracy | Inference Latency (per sample)
 Bi-LSTM | 0.58 | 0.94 | ~0.29 ms
 BERT | [0.XX] | [0.XX]| [XX.XX] ms
